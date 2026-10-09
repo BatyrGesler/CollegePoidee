@@ -1,0 +1,14 @@
+/home/user/Desktop/c#-college/dungeonmaster/dungeonmaster/obj/Debug/net8.0/dungeonmaster.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/Desktop/c#-college/dungeonmaster/dungeonmaster/obj/Debug/net8.0/dungeonmaster.AssemblyInfoInputs.cache
+/home/user/Desktop/c#-college/dungeonmaster/dungeonmaster/obj/Debug/net8.0/dungeonmaster.AssemblyInfo.cs
+/home/user/Desktop/c#-college/dungeonmaster/dungeonmaster/obj/Debug/net8.0/dungeonmaster.csproj.CoreCompileInputs.cache
+/home/user/Desktop/c#-college/dungeonmaster/dungeonmaster/bin/Debug/net8.0/dungeonmaster
+/home/user/Desktop/c#-college/dungeonmaster/dungeonmaster/bin/Debug/net8.0/dungeonmaster.deps.json
+/home/user/Desktop/c#-college/dungeonmaster/dungeonmaster/bin/Debug/net8.0/dungeonmaster.runtimeconfig.json
+/home/user/Desktop/c#-college/dungeonmaster/dungeonmaster/bin/Debug/net8.0/dungeonmaster.dll
+/home/user/Desktop/c#-college/dungeonmaster/dungeonmaster/bin/Debug/net8.0/dungeonmaster.pdb
+/home/user/Desktop/c#-college/dungeonmaster/dungeonmaster/obj/Debug/net8.0/dungeonmaster.dll
+/home/user/Desktop/c#-college/dungeonmaster/dungeonmaster/obj/Debug/net8.0/refint/dungeonmaster.dll
+/home/user/Desktop/c#-college/dungeonmaster/dungeonmaster/obj/Debug/net8.0/dungeonmaster.pdb
+/home/user/Desktop/c#-college/dungeonmaster/dungeonmaster/obj/Debug/net8.0/dungeonmaster.genruntimeconfig.cache
+/home/user/Desktop/c#-college/dungeonmaster/dungeonmaster/obj/Debug/net8.0/ref/dungeonmaster.dll
