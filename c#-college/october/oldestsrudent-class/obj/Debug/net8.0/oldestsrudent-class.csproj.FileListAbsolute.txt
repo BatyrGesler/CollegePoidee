@@ -1,0 +1,15 @@
+/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/bin/Debug/net8.0/oldestsrudent-class
+/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/bin/Debug/net8.0/oldestsrudent-class.deps.json
+/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/bin/Debug/net8.0/oldestsrudent-class.runtimeconfig.json
+/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/bin/Debug/net8.0/oldestsrudent-class.dll
+/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/bin/Debug/net8.0/oldestsrudent-class.pdb
+/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/obj/Debug/net8.0/oldestsrudent-class.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/obj/Debug/net8.0/oldestsrudent-class.AssemblyInfoInputs.cache
+/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/obj/Debug/net8.0/oldestsrudent-class.AssemblyInfo.cs
+/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/obj/Debug/net8.0/oldestsrudent-class.csproj.CoreCompileInputs.cache
+/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/obj/Debug/net8.0/oldestsrudent-class.sourcelink.json
+/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/obj/Debug/net8.0/oldestsrudent-class.dll
+/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/obj/Debug/net8.0/refint/oldestsrudent-class.dll
+/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/obj/Debug/net8.0/oldestsrudent-class.pdb
+/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/obj/Debug/net8.0/oldestsrudent-class.genruntimeconfig.cache
+/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/obj/Debug/net8.0/ref/oldestsrudent-class.dll
