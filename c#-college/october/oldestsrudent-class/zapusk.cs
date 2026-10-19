@@ -1,17 +1,13 @@
+using System;
 namespace MyNamespace
 {
-
-
-
-    using System;
-
-    class Program
+    class zapusk
     {
         static void Main()
         {
-            string result = StudentHelper.OldestStudent();
+            StudentGroup group = new StudentGroup(3);
+            string result = group.OldestStudent();
             Console.WriteLine(result);
         }
     }
-
-}    
+}

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("oldestsrudent-class")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e12cc13a521f24c3812ecbc072d710e033af42e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0824828e1548fea1041f5c793c729b3de6fddd0")]
 [assembly: System.Reflection.AssemblyProductAttribute("oldestsrudent-class")]
 [assembly: System.Reflection.AssemblyTitleAttribute("oldestsrudent-class")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

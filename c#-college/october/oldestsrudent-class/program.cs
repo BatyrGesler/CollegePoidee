@@ -1,15 +1,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
-public class StudentHelper
-{
-    public static string OldestStudent()
-    {
-        Dictionary<string, int> dih = new Dictionary<string, int>();
 
-        Console.WriteLine("Enter count of names: ");
-        int count = Convert.ToInt32(Console.ReadLine());
+public class StudentGroup
+{
+    Dictionary<string, int> dih = new Dictionary<string, int>();
+
+    public StudentGroup(int count)
+    {
 
         for (int i = 0; i < count; i++)
         {
@@ -21,18 +19,19 @@ public class StudentHelper
 
             dih[name] = age;
         }
+    }
 
-        int oldest = Math.Max(dih.Values.Min(), dih.Values.Max());
-
-        string[] names = dih.Keys.ToArray();
+    public string OldestStudent()
+    {
+        int oldest = dih.Values.Max();
 
         string oldestName = "";
 
-        for (int i = 0; i < names.Length; i++)
+        foreach (string name in dih.Keys)
         {
-            if (dih[names[i]] == oldest)
+            if (dih[name] == oldest)
             {
-                oldestName = names[i];
+                oldestName = name;
                 break;
             }
         }
