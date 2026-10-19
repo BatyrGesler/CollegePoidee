@@ -67,17 +67,16 @@ class Cart:
     def __str__(self):
         if not self._items:
             return "Cart is empty"
-        lines = ["=" * 40, "RECEIPT", "=" * 40]
+        text = "=" * 40 + "\n"
+        text += "RECEIPT\n"
+        text += "=" * 40 + "\n"
         for i in self._items:
             p, q = i["product"], i["qty"]
-            lines.append(f"{p.name:<15} {p.price:>8.2f} x {q:<3} = {p.price * q:>9.2f}")
-        lines.append("-" * 40)
-        lines.append(f"{'TOTAL:':<28}{self.total():>11.2f}")
-        lines.append("=" * 40)
-        return "\n".join(lines)
-
-
-
+            text += f"{p.name:<15} {p.price:>8.2f} x {q:<3} = {p.price * q:>9.2f}\n"
+        text += "-" * 40 + "\n"
+        text += f"{'TOTAL:':<28}{self.total():>11.2f}\n"
+        text += "=" * 40
+        return text
 
 
 products = [
@@ -99,8 +98,10 @@ def read_int(prompt):
 
 def show_products():
     print("\nProducts:")
-    for number, p in enumerate(products, start=1):
+    number = 1
+    for p in products:
         print(f"{number}. {p}")
+        number += 1
 
 
 def choose_product():
