@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/oldestsrudent-class.csproj": {}
+    "/home/user/Desktop/collegepoidee/c#-college/oldestsrudent-class/oldestsrudent-class.csproj": {}
   },
   "projects": {
-    "/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/oldestsrudent-class.csproj": {
+    "/home/user/Desktop/collegepoidee/c#-college/oldestsrudent-class/oldestsrudent-class.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/oldestsrudent-class.csproj",
+        "projectUniqueName": "/home/user/Desktop/collegepoidee/c#-college/oldestsrudent-class/oldestsrudent-class.csproj",
         "projectName": "oldestsrudent-class",
-        "projectPath": "/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/oldestsrudent-class.csproj",
+        "projectPath": "/home/user/Desktop/collegepoidee/c#-college/oldestsrudent-class/oldestsrudent-class.csproj",
         "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/Desktop/collegepoidee/c#-college/october/oldestsrudent-class/obj/",
+        "outputPath": "/home/user/Desktop/collegepoidee/c#-college/oldestsrudent-class/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/user/.nuget/NuGet/NuGet.Config"

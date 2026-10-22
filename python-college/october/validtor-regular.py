@@ -4,28 +4,28 @@ usernames = ["aidana_01", "1abc", "ab", "very_long_username_123", "yerlan-k"]
 phones = ["+7 701 123-45-67", "8(701)1234567", "+77011234567",
           "7701123456", "+8 701 123 45 67"]
 
-def is_valid_username(username):
-    if re.fullmatch(r"[a-zA-Z][a-zA-Z0-9_]{2,19}", username):
-        return True
-    return False
 
-def clean_phone(phone):
-    return re.sub(r"\D", "", phone)
-
-
-def is_valid_phone(phone):
-    if not (phone.startswith("+7") or phone.startswith("7") or phone.startswith("8")):
-        return False
-    digits = clean_phone(phone)
-
-    if re.fullmatch(r"[78]7\d{9}", digits):
-        return True
-    return False
+def only_numbers(phone_number):
+    result = []
+    for phone in phone_number:
+        result.append(re.sub(r"\D", "", phone))
+    return result
 
 
-for u in usernames:
-    print(u, ":", is_valid_username(u))
+check_log = []
+for name in usernames:
+    if re.fullmatch(r"\w{6,25}", name):
+        check_log.append(name)
 
-print("----------------------------\n")
-for p in phones:
-    print(p, clean_phone(p), ":", is_valid_phone(p))
+correct_phones = []
+for phone in phones:
+    correct_phones.append(re.sub(r"[ ()-]", "", phone))
+
+kz_phones = []
+for i in correct_phones:
+    if re.findall(r"\+77\d{9}", i):
+        kz_phones.append(i)
+
+print(check_log)
+print(kz_phones)
+print(only_numbers(phones))

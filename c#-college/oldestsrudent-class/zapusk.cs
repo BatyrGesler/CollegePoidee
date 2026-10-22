@@ -5,8 +5,8 @@ namespace MyNamespace
     {
         static void Main()
         {
-            StudentGroup group = new StudentGroup(3);
-            string result = group.OldestStudent();
+            StudentGroup group = new StudentGroup(3, "", 0);
+            string result = group.getoldest();
             Console.WriteLine(result);
         }
     }

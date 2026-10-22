@@ -14,10 +14,11 @@ class Product:
 
 class Cart:
     def __init__(self):
-        self._items = []
+        self.items = []
+    
 
     def _find(self, product_name):
-        for item in self._items:
+        for item in self.items:
             if item["product"].name == product_name:
                 return item
         return None
@@ -38,39 +39,39 @@ class Cart:
         if item:
             item["qty"] += qty
         else:
-            self._items.append({"product": product, "qty": qty})
+            self.items.append({"product": product, "qty": qty})
 
     def remove(self, product_name):
         item = self._find(product_name)
         if item is None:
             raise ValueError(f"Product «{product_name}» is not in the cart")
-        self._items.remove(item)
+        self.items.remove(item)
 
     def total(self):
-        return sum(i["product"].price * i["qty"] for i in self._items)
+        return sum(i["product"].price * i["qty"] for i in self.items)
 
     def checkout(self):
-        for item in self._items:
+        for item in self.items:
             if item["qty"] > item["product"].stock:
                 raise ValueError(
                     f"Not enough product «{item['product'].name}» in stock"
                 )
         receipt = str(self)
-        for item in self._items:
+        for item in self.items:
             item["product"].stock -= item["qty"]
-        self._items.clear()
+        self.items.clear()
         return receipt
 
     def __len__(self):
-        return len(self._items)
+        return len(self.items)
 
     def __str__(self):
-        if not self._items:
+        if not self.items:
             return "Cart is empty"
         text = "=" * 40 + "\n"
         text += "RECEIPT\n"
         text += "=" * 40 + "\n"
-        for i in self._items:
+        for i in self.items:
             p, q = i["product"], i["qty"]
             text += f"{p.name:<15} {p.price:>8.2f} x {q:<3} = {p.price * q:>9.2f}\n"
         text += "-" * 40 + "\n"
