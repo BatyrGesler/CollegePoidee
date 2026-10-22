@@ -44,6 +44,7 @@ for v in vehicles:
 
 fastest = vehicles[0]
 for v in vehicles:
+
     if v.travel_time(distance) < fastest.travel_time(distance):
         fastest = v
 
