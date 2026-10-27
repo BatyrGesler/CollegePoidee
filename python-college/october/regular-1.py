@@ -14,8 +14,10 @@ def only_numbers(phone_number):
 
 check_log = []
 for name in usernames:
-    if re.fullmatch(r"\w{6,25}", name):
+    if re.fullmatch(r"\w{6,23}", name):
         check_log.append(name)
+
+
 
 correct_phones = []
 for phone in phones:
@@ -23,7 +25,7 @@ for phone in phones:
 
 kz_phones = []
 for i in correct_phones:
-    if re.findall(r"\+77\d{9}", i):
+    if re.findall(r"\+77\d{9}", i) or re.findall(r"^8\d{9}", i):
         kz_phones.append(i)
 
 print(check_log)
