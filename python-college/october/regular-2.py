@@ -11,6 +11,9 @@ log = [
 pattern = r"(?P<date>\S+) (?P<time>\S+) (?P<level>[A-Z]+) (?P<message>.+)"
 ip_pattern = r"\d+\.\d+\.\d+\.\d+"
 
+
+
+
 levels = {}
 errors = []
 ips = []
@@ -20,7 +23,10 @@ for line in log:
     level = m.group("level")
     message = m.group("message")
 
-    levels[level] = levels.get(level, 0) + 1
+    if level in levels:
+        levels[level] = levels[level] + 1
+    else:
+        levels[level] = 1
 
     if level == "ERROR":
         errors.append(message)
