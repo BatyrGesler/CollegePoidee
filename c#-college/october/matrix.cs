@@ -46,30 +46,13 @@ public class mrt
             int letter = (int)char.ToUpper(c[0]) - 65;
             int num = (int)c[1] - 49;
             string figure = chess[num, letter];
-            Console.Write(figure + " - ");
-            if (figure == "0")
+            if (figure == "T")
             {
-                Console.WriteLine("1 ");
+                Console.WriteLine(figure + " - Neopravdano dorogo");
             }
-            else if (figure == "K")
+            else
             {
-                Console.WriteLine("3 ");
-            }
-            else if (figure == "S")
-            {
-                Console.WriteLine("3 ");
-            }
-            else if (figure == "L")
-            {
-                Console.WriteLine("5 ");
-            }
-            else if (figure == "F")
-            {
-                Console.WriteLine("9 ");
-            }
-            else if (figure == "T")
-            {
-                Console.WriteLine("Neopravdano dorogo ");
+                Console.WriteLine(figure + " - " + GetPrice(c));
             }
         }
 
