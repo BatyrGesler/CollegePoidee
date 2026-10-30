@@ -19,7 +19,7 @@ errors = []
 ips = []
 
 for line in log:
-    m = re.match(pattern, line)
+    m = re.fullmatch(pattern, line)
     level = m.group("level")
     message = m.group("message")
 

@@ -3,6 +3,7 @@ import re
 text = "  Contact:  anna@mail.kz ,  john.doe@example.com.\nCall +7 701 123 45 67 or 8 (777) 555-12-34.   Deadline: 05.11.2026, report due 20.11.2026.  "
 
 clean = re.sub(r"\s+", " ", text).strip()
+
 clean = re.sub(r"\s+,", ",", clean)
 
 emails = re.findall(r"[\w.]+@[\w]+\.\w+", clean)
@@ -15,3 +16,12 @@ print(clean)
 print(emails)
 
 
+
+
+print("---------------------------")
+
+g = "123243 -+*@5678"
+
+print(g)
+
+print(re.sub(r"\D", "=", g))
