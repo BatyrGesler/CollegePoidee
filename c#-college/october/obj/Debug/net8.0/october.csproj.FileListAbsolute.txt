@@ -1,0 +1,15 @@
+/home/user/Desktop/collegepoidee/c#-college/october/obj/Debug/net8.0/october.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/Desktop/collegepoidee/c#-college/october/obj/Debug/net8.0/october.AssemblyInfoInputs.cache
+/home/user/Desktop/collegepoidee/c#-college/october/obj/Debug/net8.0/october.AssemblyInfo.cs
+/home/user/Desktop/collegepoidee/c#-college/october/obj/Debug/net8.0/october.csproj.CoreCompileInputs.cache
+/home/user/Desktop/collegepoidee/c#-college/october/obj/Debug/net8.0/october.sourcelink.json
+/home/user/Desktop/collegepoidee/c#-college/october/bin/Debug/net8.0/october
+/home/user/Desktop/collegepoidee/c#-college/october/bin/Debug/net8.0/october.deps.json
+/home/user/Desktop/collegepoidee/c#-college/october/bin/Debug/net8.0/october.runtimeconfig.json
+/home/user/Desktop/collegepoidee/c#-college/october/bin/Debug/net8.0/october.dll
+/home/user/Desktop/collegepoidee/c#-college/october/bin/Debug/net8.0/october.pdb
+/home/user/Desktop/collegepoidee/c#-college/october/obj/Debug/net8.0/october.dll
+/home/user/Desktop/collegepoidee/c#-college/october/obj/Debug/net8.0/refint/october.dll
+/home/user/Desktop/collegepoidee/c#-college/october/obj/Debug/net8.0/october.pdb
+/home/user/Desktop/collegepoidee/c#-college/october/obj/Debug/net8.0/october.genruntimeconfig.cache
+/home/user/Desktop/collegepoidee/c#-college/october/obj/Debug/net8.0/ref/october.dll
